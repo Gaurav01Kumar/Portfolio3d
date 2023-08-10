@@ -15,10 +15,10 @@ function App() {
         <Experience/>
         <Tech/>
         <Works/>
-        <Feedbacks/>
+        <Contact/>
         <div className="relative z-0">
-            <Contact/>
-            <StarsCanvas/>
+            
+            
         </div>
    </div>
    </BrowserRouter>
