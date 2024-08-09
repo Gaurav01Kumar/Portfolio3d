@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => {
         date={experience.date}
         iconStyle={{ background: experience.iconBg }}
         icon={
-          <div className='flex justify-center items-center w-full h-full'>
+          <div className='flex justify-center   items-center w-full h-full'>
             <img src={experience.icon}
               alt={experience.company_name}
               className='w-[60%] h-[60%] object-contain'
@@ -54,7 +54,7 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-20 flex flex-col-reverse'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

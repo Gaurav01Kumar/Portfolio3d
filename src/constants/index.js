@@ -25,6 +25,8 @@ import {
     threejs,
     shoptop,
     freelance,
+    yaadgarpal,
+    aisummary,
   } from "../assets";
   
   export const navLinks = [
@@ -55,6 +57,18 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
+    {
+      title:"Full Stack Developer",
+      icon:backend
+    },
+    {
+      title:"React Native Developer",
+      icon:web
+    },
+    {
+      title:"Php-Laravel Developer",
+      icon:web
+    }
     // {
     //   title: "Content Creator",
     //   icon: creator,
@@ -118,6 +132,32 @@ import {
   
   const experiences = [
     {
+      title: "Software Developer Engineer",
+      company_name: "Infocartgroup",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Full stack Developer",
+      company_name: "NonStandard Digital",
+      icon: freelance,
+      iconBg: "#E6DEDD",
+      date: "March 2023 - June 2024",
+      points: [
+        "Developed and maintained backend APIs using Node.js and Spring Boot.",
+        "Worked on multiple APIs simultaneously, ensuring that they were all working properly and meeting the requirements of the project.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "Web Developer",
       company_name: "Shoptop",
       icon: shoptop,
@@ -130,19 +170,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+   
     // {
     //   title: "Web Developer",
     //   company_name: "Shopify",
@@ -156,19 +184,8 @@ import {
     //     "Participating in code reviews and providing constructive feedback to other developers.",
     //   ],
     // },
-    {
-      title: "Full stack Developer",
-      company_name: "Freelancer",
-      icon: freelance,
-      iconBg: "#E6DEDD",
-      date: "May 2023 - Present",
-      points: [
-        "Developed and maintained backend APIs using Node.js and Spring Boot.",
-        "Worked on multiple APIs simultaneously, ensuring that they were all working properly and meeting the requirements of the project.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
+   
   ];
   
   const testimonials = [
@@ -266,6 +283,102 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/Gaurav01Kumar/Portfolio3d",
+    },
+    {
+      name: "yaadgarpal.com",
+      description:
+        " Developed an event booking application using React,Tailwindcss , Node.js, Mongodb and Express.js . Implemented hotel registration ,secure pre-payment via Razorpay and comprehensive dashboard for seller and admin",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Rest Api",
+          color: "pink-text-gradient",
+                  },
+        {
+          name: "MongoDb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: yaadgarpal,
+      source_code_link: "yaadgarpal.com",
+    },
+    {
+      name: "Exam-Question-Creator-and-Checker",
+      description:
+        " Developed an Ai Based Exam Question paper creation and checkor i use google vission api and chagpt api for implement features of question creation and checking",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Rest Api",
+          color: "pink-text-gradient",
+                  },
+        {
+          name: "Mysql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://private-user-images.githubusercontent.com/97530398/344383669-929cf31d-fd95-470b-8c99-380ad495bdc6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMyMTY4MTAsIm5iZiI6MTcyMzIxNjUxMCwicGF0aCI6Ii85NzUzMDM5OC8zNDQzODM2NjktOTI5Y2YzMWQtZmQ5NS00NzBiLThjOTktMzgwYWQ0OTViZGM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODA5VDE1MTUxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQwYzBjZTgwZThjZWYxMzBhYTg1MmQzZTIzOTRmZGVhYTAxZjNhZWIxODViMDQ5YTcyMjhhZjIzYTAwZTA1ZGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5pcHxggCKklDotG62Xs0QyYkcKNMXGDQoeBD0ITBetQ",
+      source_code_link: "https://github.com/Gaurav01Kumar/Exam-Question-Creator-and-Checker",
+    },
+    {
+      name: "Exam-Question-Creator-and-Checker",
+      description:
+        " Developed an Ai Based Sass Application where i implement RapidApi for summary create logo and many more",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Rest Api",
+          color: "pink-text-gradient",
+                  },
+      
+      ],
+      image: aisummary,
+      source_code_link: "https://github.com/Gaurav01Kumar/AI-Webpage",
     },
   ];
   
