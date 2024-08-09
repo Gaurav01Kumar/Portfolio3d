@@ -23,13 +23,15 @@ import threejs from "./tech/threejs.svg";
 
 import freelance from "./company/download.jpg";
 import shopify from "./company/shopify.png";
-import shoptop from "./company/shoptop.png";
-import tesla from "./company/tesla.png";
+
+import yaadgarpal from "./yaadgarpal.png";
 
 import medical from "./medical.png";
 import amazon from "./company/amazon.png";
 import portfolio from "./portfolio.png";
-
+import shoptop from "./company/amazon.png";
+import tesla from "./company/tesla.png";
+import aisummary from "./aisummary.jpg"
 export {
   logo,
   backend,
@@ -55,9 +57,11 @@ export {
   freelance,
   shopify,
   portfolio,
-  tesla,
+  
   medical,
   amazon,
-  
-  shoptop
+  tesla,
+  shoptop,
+  yaadgarpal,
+  aisummary
 };
