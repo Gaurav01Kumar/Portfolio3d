@@ -1,28 +1,35 @@
-import { BrowserRouter } from "react-router-dom"
-import {About,Contact,Experience , Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} from "./components"
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import {
+  Navbar,
+  Hero,
+  About,
+  Architecture,
+  Experience,
+  Tech,
+  Works,
+  Principles,
+  Contact,
+  Footer,
+} from "./components";
+
 function App() {
-  
-
   return (
-   <BrowserRouter>
-   <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat">
-          <Navbar />
-          <Hero/>
-
-        </div>
-        <About/>
-        <Experience/>
-        <Tech/>
-        <Works/>
-        <Contact/>
-        <div className="relative z-0">
-            
-            
-        </div>
-   </div>
-   </BrowserRouter>
-  )
+    <BrowserRouter>
+      <div className="relative z-0 bg-[#070a13] text-slate-100 min-h-screen selection:bg-cyan-500/30 selection:text-cyan-200">
+        <Navbar />
+        <Hero />
+        <About />
+        <Architecture />
+        <Experience />
+        <Tech />
+        <Works />
+        <Principles />
+        <Contact />
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
